@@ -1,0 +1,112 @@
+.flexContainerMain{
+    flex-direction: row;
+    flex-flow: row wrap;
+    display: flex;
+    min-width: 500;
+    justify-content: center;
+    padding: 10px;
+}
+
+.flexContainerCard{
+    border: 2px solid rgba(189, 181, 181, 0.952);
+    font-size: 1rem;    
+    width: 350px;
+    height: 350px;
+    display: flex;
+    padding: 10px;
+    flex-direction:column-reverse;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.flexContainerImage{
+    font-size: 1rem;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+.flexContainerImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.flexContainerBottom{
+    
+    flex-direction: row;
+    margin-right: 5px;
+    display: flex;
+    flex-flow: wrap;
+    width: 330px; 
+    height: auto;
+    justify-content: space-between;
+}
+
+.flexContainerBottomTitle{
+    font-family: fantasy, 'Courier New', Courier, monospace;
+}
+
+.flexContainerBottomButton{
+    width: 100px; 
+    height: 14;  
+    
+}
+.flexContainerBottomButton button{
+    background-color: #008CBA;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.flexContainerBottomCount{
+    width: 100px;    
+    color:blue;
+    font-size: 20px;
+    height: 14;  
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.flexContainerCardAbout{
+    border: 2px solid rgba(189, 181, 181, 0.952);
+    font-size: 1rem;    
+    width: auto;
+    height: 600px;
+    display: flex;
+    padding: 10px;
+    flex-direction:column-reverse;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.flexContainerCardAbout li{
+    font-family: cursive;
+}
+
+.flexContainerCardAbout h2{
+    font-family: serif;
+    color: rgb(225, 142, 65);
+}
+.flexContainerCardAbout h3{
+    font-family: serif;
+    color: rgb(56, 88, 56);
+}
+.flexContainerCardAbout h4{
+    font-family: fantasy, 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+
+.flexContainerBottomTitleAbout{
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.flexContainerBottomTitleAbout li{
+    font-size: 10px;
+    font-family: cursive ;
+}
